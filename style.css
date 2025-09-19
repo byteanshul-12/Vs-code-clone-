@@ -1,0 +1,277 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}
+body{
+    background-color:#0D1117;
+}
+header{
+    background-color:#0D1117;
+    padding-bottom:20px;
+    position:fixed;
+    
+}
+#zero{
+    color:white;
+    margin-left:300px;
+    
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+   
+
+}
+#new{
+    color:white;
+    font-size: 18px;
+    font-weight:550;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    letter-spacing: -0.2px;
+    
+}
+.search{
+    vertical-align: middle;
+}
+.put{
+    color:#dee2eb;
+    background-color: transparent;
+    padding:8px  2px;
+    font-weight:600px;
+    border-radius:4px;
+
+}
+.load{
+    color:white;
+    background-color:#0078d4;
+    font-size:16px;
+    font-weight:600px;
+    padding:8px 3px;
+    border-radius:4px;
+}
+
+#eight{
+    padding-right:150px;
+}
+.toplist{
+    color:#333;
+    cursor:pointer;
+    padding-left:15px;
+    font-size:16px;
+    transition: opacity 0.08s ease-in;
+    height:100%;
+}
+#middle{
+    display:flex;
+    justify-content: center;
+    color:white;
+    margin-top:70px;
+    margin-right:12px;
+   
+}
+.version{
+    margin-left:23px;
+}
+.downlist{
+    color:#c3d0e5;
+    display: flex;
+    justify-content:center;
+    margin-top: 35px;
+    margin-bottom :3px;
+    font-size:72px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif ;
+    font-weight:600;
+}
+.nextword{
+    color:#c3d0e5;
+    display: flex;
+    justify-content:center;
+    margin-top: 3px;
+    margin-bottom :3px;
+    font-size:72px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif ;
+    font-weight:600;
+}
+#backv{
+    background-image: url(./Asset/image/hero-background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:831px;
+    width:1272px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    box-sizing: border-box;
+    margin-top:4%;
+    margin-left:12%;
+    border:3px solid rgb(54, 51, 51);
+    border-radius: 9px;
+   
+}
+
+#video{
+    max-width: 90%;
+  max-height: 90%;
+  border: 4px solid white;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+#hi{
+    padding:4px;
+    border:1px solid #0D1117;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif ;
+    display:flex;
+    justify-content:center;
+    margin-top:23px;
+}
+.butt{
+    color:#f5f6f9;;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif ;
+    font-weight:650;
+    height:57px;
+    width:221px;
+    margin-right:29px;
+    border-radius:5px;
+   font-size:16px;
+    cursor: pointer;
+
+}
+#but1{
+    background-color:#0078d4;
+    border:1px solid #0078d4;
+}
+#but2{
+    background-color:#25292E;
+    border:1px solid #9ba3b4;
+}
+#or{
+   color:#9FB1D1;
+   font-weight:500;
+   font-size:11px;
+   padding-top:8px;
+}
+.unorder{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-right:120px;
+}
+
+.anchor{
+   color:#4daafc;
+   font-weight: 200;
+   font-size:11px;
+}
+.litag{
+    padding:2px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+.play{
+    display:flex;
+    justify-content: center;
+    margin:23px auto;
+   width:fit-content;
+   
+    padding-top:20px;
+
+}
+#replay{
+    
+    font-size: 13px;
+    margin-bottom:23px;
+}
+#three-col{
+    border:1px solid #0D1117;
+    display:flex;
+    justify-content:space-around;
+    height:412px;
+    padding-left:287px;
+    padding-right:287px;
+    gap:47px;
+   
+}
+#first-col{
+    color:#9FB1D1;
+    width:325px;
+    border:1px solid rgba(255,255,255,0.12);
+    background-color: rgba(255, 255, 255, 0.04);
+    border-radius:10px;
+    padding:16px;
+    display:flex;
+    flex-direction: column;
+
+}
+#second-col{
+    color:#9FB1D1;
+    border:1px solid rgba(255,255,255,0.12);
+    width:325px;
+    background-color:rgba(255, 255, 255, 0.04);
+    border-radius:10px;
+    padding:16px;
+    display:flex;
+    flex-direction:column;
+}
+p{
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif ;
+    font-size:16px;
+    font-weight:500;
+    line-height: 160%;
+
+}
+h2{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    font-weight:450;
+}
+#third-col{
+    color:#9FB1D1;
+    border:1px solid rgba(255,255,255,0.12);
+    width:325px;
+    background-color:rgba(255, 255, 255, 0.04);
+    border-radius:10px;
+    padding:16px;
+    display:flex;
+    flex-direction:column;
+}
+.copilot{
+    border:1px solid rgba(255, 255, 255, 0.12);;
+    border-radius:10px;
+    display:flex;
+    flex-direction: row;
+    background-image: url(./Asset/image/copilot.png);
+    background-size:cover;
+    display:flex;
+    align-items:baseline;
+    padding:40px 0px;
+    margin: 48px;
+    margin-left:12%;
+    margin-right:40px;
+    width:1275px;
+    line-height:1.42857143;
+}
+#free{
+    color:#e6eefA;
+    padding-left:32px;
+    padding-right:34px;
+    letter-spacing: -0.5px;
+    font-size:30px;   
+}
+.github{
+    color:#9FB1D1;
+    margin-left:140px;  
+}
+.tryfree{
+    color:#c3d0e5;
+    background-color:#25292E;
+    border:1px solid rgba(255, 255, 255, 0.3);
+    margin-left:140px;
+    line-height: 1.42857143;
+    cursor:pointer;
+    border-radius: 5px;
+    padding: 8px;
+    height: 36px;
+    width: 78px;
+}
